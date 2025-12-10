@@ -1,0 +1,7 @@
+// Script for Jacubus portfolio
+
+document.getElementById("year").textContent = new Date().getFullYear();
+
+addEventListener("keydown", e => {
+  if (e.key.toLowerCase() === "h") location.hash = "#contact";
+});
